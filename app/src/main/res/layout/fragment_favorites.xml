@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="83dp"
+        android:text="fragment favorites"
+        android:textSize="25dp"
+        android:textColor="#9C27B0"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Text"
+        android:background="#03A9F4"/>
+
+    <Button
+        android:id="@+id/speechbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tap to Open Mic"
+        android:background="#FFEB3B"
+        />
+
+</LinearLayout>
